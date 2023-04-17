@@ -126,3 +126,10 @@ aria labels provide the user with a non-visible label that will only be announce
 image alternative texts - 
   
 The alt attribution allows the web developer to add description to images that are not visible on the completed webpage. This text will be read by a screen reader to describe to the user what the image depicts. 
+
+  What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+  
+CSS stands for Cascading Style Sheets. It is the language we use to control the appearance of the HTML document and how it is presented on the web. A CSS file can be created within a code editor and saved as style.css. To attach the file to the HTML, it must be placed with the <head> of the document using the <link> element. The href attribute is used to point to the location of the css file, and the ref attribute is used to define it as a stylesheet. 
+  
+The code would look like such:
+<link rel=“stylesheet” href=“css/style.css”>
