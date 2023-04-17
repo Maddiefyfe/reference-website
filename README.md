@@ -8,7 +8,7 @@ Each tag used to define the purpose of the text that’s inside of it follow a p
 5.	Explain or demonstrate commonly used html tags/elements:
 headings: h1-h6
 Headings are used to mark headings according to their importance. <h1> is most important, and only one can be contained within an HTML file. <h6> is the least important, and the smallest. 
-P
+p
 <p> is a paragraph tag, and paragraphs must always start on a new line. 
 lists: ul, ol, dl
 <ul> stand for unordered list, <ol> stands for ordered list, and <dl> stands for description list. <ul> and <ol> contain <li>, or list items, and <dl> contains both <dt> (term or name) and <dd> (description of term). HTML configures these lists and gives them certain properties which can be altered using CSS. 
