@@ -2,18 +2,18 @@
 <b> 1.	Naming convention for all filenames, paths and folders </b>
 
 
-2.	Best practices for commit messages
+<b> 2.	Best practices for commit messages </b>
 
 
-3.	What is HTML?
+<b> 3.	What is HTML? </b>
 HTML stand for Hypertext Markup Language and is used to depict the content of websites. It contains three main sections, the head, body, and footer. HTML contains several elements, and these elements are used to properly display a website. Each separate web page has its own HTML file, for example, an About, Contact, and Main page of a website would each have their own HTML file. 
 
 
-4.	Proper syntax for HTML tags
+<b> 4.	Proper syntax for HTML tags </b>
 Each tag used to define the purpose of the text that’s inside of it follow a particular syntax. It begins with an opening tag, which is also the tag name, and ends with a close tag. For example, a paragraph tag would look like <p> </p> (the slash indicates that it is a closing tag). The element content, or the words viewed on screen, is placed inside the tags. These 3 factors make up the element. 
 
 
-5.	Explain or demonstrate commonly used html tags/elements:
+<b> 5.	Explain or demonstrate commonly used html tags/elements: </b>
 
 headings: h1-h6 - 
 
@@ -58,7 +58,7 @@ i is used to indicate another language, technical term, or title. It is used to 
 small - 
 small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
 
-6. Explain block Elements and also explain the list of block elements and why they are used from below:
+<b> 6. Explain block Elements and also explain the list of block elements and why they are used from below: </b>
 
 html - 
 html is used to represent the root of an HTML document. All other elements must be contained within the <html> tag, as it is the bases for the entire webpage. 
@@ -99,7 +99,7 @@ span is an inline element that is used to markup part of a text or part of the d
 small - 
 small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
 
-7. Explain why accessibility is important and also explain the accessibility properties like:
+<b> 7. Explain why accessibility is important and also explain the accessibility properties like: </b>
   
 Accessibility is an extremely important factor to keep in mind when creating and designing and HTML document. As the internet has become a major aspect of billions of people lives, it is essential that it can be used by any person, regardless of their disabilities. By making a website accessible, it ensures that all users have an easy experience using and accessing any information found on the website. 
   
@@ -135,14 +135,14 @@ image alternative texts -
   
 The alt attribution allows the web developer to add description to images that are not visible on the completed webpage. This text will be read by a screen reader to describe to the user what the image depicts. 
 
-  What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+<b> 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)</b>
   
-8. CSS stands for Cascading Style Sheets. It is the language we use to control the appearance of the HTML document and how it is presented on the web. A CSS file can be created within a code editor and saved as style.css. To attach the file to the HTML, it must be placed with the <head> of the document using the <link> element. The href attribute is used to point to the location of the css file, and the ref attribute is used to define it as a stylesheet. 
+CSS stands for Cascading Style Sheets. It is the language we use to control the appearance of the HTML document and how it is presented on the web. A CSS file can be created within a code editor and saved as style.css. To attach the file to the HTML, it must be placed with the <head> of the document using the <link> element. The href attribute is used to point to the location of the css file, and the ref attribute is used to define it as a stylesheet. 
   
 The code would look like such:
 link rel=“stylesheet” href=“css/style.css”
   
-9. What is the difference between CSS ruleset, property and value (write explanation and an example code) 
+<b>9. What is the difference between CSS ruleset, property and value (write explanation and an example code)</b>
   
 A CSS rule consists of a selector and declaration block where properties are styled. 
 Ruleset: A ruleset contains a selector and one or more declarations surrounded by {}. A selector identifies which part of the HTML code is being transformed, and a declaration assigns a value to a property within that selector. An entire ruleset may look something like this:
@@ -157,7 +157,7 @@ Property: A property is the type of design you wish to add to the HTML code. In 
   
 Value: A value would be an accepted value for the property selected. In the above example, purple would be the value of background-color.
 
-10. Why do we use border-box property in CSS?
+  <b> 10. Why do we use border-box property in CSS? </b>
 A border-box allows padding and border to be included in an elements width and height. Without border-box, the padding and border are added onto the width of the box, making it bigger. With border-box, the padding and border are within the set limits of the box. 
   
 html {
@@ -172,18 +172,19 @@ box-sizing: inherit;
 }
   
 Should be added to the top of every CSS file. 
+
   
-  11. Explain different type of ways we can add spacing to an element
+  <b> 11. Explain different type of ways we can add spacing to an element </b>
   
 The padding and margin properties can be used to add spacing to an element. 
   
   
-12. What is the main difference between margin and padding?
+  <b> 12. What is the main difference between margin and padding? </b>
   
 Margin is defined as the space around an element and padding is defined as the distance between the elements content and a border that may be placed around it. Padding is directly outside the content, and it pushes the edge of the box away from the content. Margin is outside of the box completely, and it is a transparent layer that pushes other boxes away. 
 
 
-13. What are different types of display properties?
+  <b>13. What are different types of display properties?</b>
   
   
 Display properties are used to set the display of an element. There are four that are used regularly.
@@ -197,11 +198,11 @@ Inline-block – formatted as inline but can change the height and width propert
 None – element is completely removed 
 
   
-14. Write a brief explanation of flexbox property
+  <b> 14. Write a brief explanation of flexbox property</b>
   
 The flexbox property creates an invisible box in which the children inside the parent selected can be arranged in specific types of ways. To create a flex container, you select a parent element in CSS and set the value to display: flex;. Items can be arranged vertically or horizontally, in order or reversed, and may be easily aligned and justified within the flex container. 
 
-15.  What are different types of flexbox properties and what is the major difference between them?
+<b> 15.  What are different types of flexbox properties and what is the major difference between them?</b>
   
 Display: flex -aligns items within a full length container 
   
@@ -265,13 +266,13 @@ Align-content: space-evenly – Evenly distributed with space between
 Align-content: stretch – lines stretch to take up the remaining space
   
   
-16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+<b> 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property</b>
   
   
 In order for flexbox to work, the parent element must be given a display of flex in CSS code. The children then must be given properties such as align-items, algin-content, justify-content, etc. in order to be displayed in flex form. These are all written in the CSS code. 
 
   
-17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+<b> 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.</b>
   
   
 To add a flexbox to a section your code would look like: 
@@ -291,13 +292,14 @@ Align-content: center;
 
   In this code, flex items would be displayed horizontally, and all placed in center of flexbox together. 
   
-18. What is CSS grid property?
+  
+  <b>18. What is CSS grid property?</b>
   
   
 CSS grid property is a two-dimensional grid-based layout that contains rows and columns. An HTML parent becomes a grid when it is set to display: grid in CSS.
 
 
-19. Write the parent and two sub-properties used for CSS Grid Property.
+  <b>19. Write the parent and two sub-properties used for CSS Grid Property.</b>
   
   
 Section {
@@ -311,19 +313,19 @@ Row-gap: 30px;
 }
 
   
-20. What is the difference between display: flex and display: grid?
+  <b> 20. What is the difference between display: flex and display: grid?</b>
   
   
 Display: flex is one-dimensional and display: grid is two-dimensional, meaning flexbox can design either in rows OR columns, whereas a grid layout can design rows AND columns. 
 
 
-21. What sub-property do we use to divide elements in CSS Grid properties?
+  <b> 21. What sub-property do we use to divide elements in CSS Grid properties?</b>
   
   
 The sub-properties we use to divide elements is grid-template-columns and grid-template-rows.
   
 
-22. What unit do we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+<b> 22. What unit do we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)</b>
   
   
 The fr unit is used to fractionally divide elements in the CSS Grid property. We can also use px to specify the size of an element in pixels. 
@@ -342,7 +344,7 @@ Grid-template-rows: repeat(4, 100px) meaning there are 4 rows each consisting of
   
   
   
-23. What is the area property in CSS grid we use for the child elements?
+  <b>23. What is the area property in CSS grid we use for the child elements?</b>
   
   
 We use grid-row and grid-column properties for child elements. 
@@ -357,7 +359,7 @@ To prevent displaying empty columns you can use the property grid-auto-columns a
 grid-auto-columns: minmax(0, 1fr)
   
   
-24. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
+<b> 24. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.</b>
   
   
 First you will find a specific font on the Google fonts website.
