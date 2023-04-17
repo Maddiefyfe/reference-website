@@ -192,3 +192,68 @@ None – element is completely removed
 14. Write a brief explanation of flexbox property
   
 The flexbox property creates an invisible box in which the children inside the parent selected can be arranged in specific types of ways. To create a flex container, you select a parent element in CSS and set the value to display: flex;. Items can be arranged vertically or horizontally, in order or reversed, and may be easily aligned and justified within the flex container. 
+
+15.  What are different types of flexbox properties and what is the major difference between them?
+  
+Display: flex -aligns items within a full length container 
+  
+Display: inline-flex – flexbox fits directly around the contained elements 
+  
+  
+Flex-direction: row OR flex-direction: row-reverse : places items first to last OR reversed on X axis
+  
+Flex-direction: column OR flex-direction: column-reverse : places items first to last OR reversed on Y axis
+  
+Flex-wrap: no-wrap : items placed on one line 
+  
+Flex-wrap: wrap : items automatically wrap to new line as needed 
+  
+  
+Justify-content allows you to control position and alignment of flex container items on the main axis as well as the space between items. 
+  
+  
+Justify-content: flex-start – default position 
+  
+Justify-content: flex-end – lines items at the end of container 
+  
+Justify-content: center – lines items in center 
+  
+Justify-content: space-between – items touch to start and end of the flex container with even space between 
+  
+Justify-content: space-around – places items evenly within container with equal space between all items 
+  
+Justify-content: space-evenly distributes items with even space between all items 
+  
+  
+Align-items works on the cross axis. 
+  
+  
+Align-items: stretch – items stretch the height of container by default 
+  
+Align-items: flex-start – line items at start of container 
+  
+Align-items: flex-end – line items at end of container 
+  
+Align-items: center – items are centered on cross axis. 
+  
+  
+Align-content aligns a flex container lines on the cross axis when it is available 
+  
+  
+Align-content: normal – default position 
+  
+Align-content: flex-start – items packed at start of container 
+  
+Align-content: flex-end – items packed at end of container 
+  
+Align-content: center – items centered 
+  
+Align-content: space-between – items spaced evenly in entire container 
+  
+Align-content: space-around – items equally distributed with space between 
+  
+Align-content: space-evenly – Evenly distributed with space between 
+  
+Align-content: stretch – lines stretch to take up the remaining space
+  
+  
