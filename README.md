@@ -322,3 +322,23 @@ Display: flex is one-dimensional and display: grid is two-dimensional, meaning f
   
 The sub-properties we use to divide elements is grid-template-columns and grid-template-rows.
   
+
+22. What unit do we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+  
+  
+The fr unit is used to fractionally divide elements in the CSS Grid property. We can also use px to specify the size of an element in pixels. 
+  
+  
+For example we can write 
+  
+  
+Grid-template-rows: repeat(2, 1fr) meaning there are 2 rows with 1fr units.
+  
+  
+Or we could write 
+  
+  
+Grid-template-rows: repeat(4, 100px) meaning there are 4 rows each consisting of 100px. 
+  
+  
+  
