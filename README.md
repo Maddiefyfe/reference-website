@@ -140,10 +140,26 @@ A CSS rule consists of a selector and declaration block where properties are sty
 Ruleset: A ruleset contains a selector and one or more declarations surrounded by {}. A selector identifies which part of the HTML code is being transformed, and a declaration assigns a value to a property within that selector. An entire ruleset may look something like this:
   
 p {
+  
 background-color: purple;
+  
 }
   
 Property: A property is the type of design you wish to add to the HTML code. In the above example, background-color would be the property.
   
 Value: A value would be an accepted value for the property selected. In the above example, purple would be the value of background-color.
 
+10. Why do we use border-box property in CSS?
+A border-box allows padding and border to be included in an elements width and height. Without border-box, the padding and border are added onto the width of the box, making it bigger. With border-box, the padding and border are within the set limits of the box. 
+  
+html {
+  
+box-sizing: border-box;
+  
+}
+*, *::before, *::after {
+  
+box-sizing: inherit;
+  
+}
+Should be added to the top of every CSS file. 
