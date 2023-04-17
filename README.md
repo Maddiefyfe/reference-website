@@ -263,3 +263,21 @@ Align-content: stretch – lines stretch to take up the remaining space
 In order for flexbox to work, the parent element must be given a display of flex in CSS code. The children then must be given properties such as align-items, algin-content, justify-content, etc. in order to be displayed in flex form. These are all written in the CSS code. 
 
   
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+  
+  
+To add a flexbox to a section your code would look like: 
+  
+  
+Section {
+  
+Display: flex;
+  
+Flex-direction: row;
+  
+Justify-content: center;
+  
+Align-content: center;
+  
+}
+In this code, flex items would be displayed horizontally, and all placed in center of flexbox together. 
