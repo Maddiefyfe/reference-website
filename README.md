@@ -7,45 +7,87 @@ HTML stand for Hypertext Markup Language and is used to depict the content of we
 Each tag used to define the purpose of the text that’s inside of it follow a particular syntax. It begins with an opening tag, which is also the tag name, and ends with a close tag. For example, a paragraph tag would look like <p> </p> (the slash indicates that it is a closing tag). The element content, or the words viewed on screen, is placed inside the tags. These 3 factors make up the element. 
 5.	Explain or demonstrate commonly used html tags/elements:
 
-headings: h1-h6
+headings: h1-h6 - 
 
 Headings are used to mark headings according to their importance. h1 is most important, and only one can be contained within an HTML file. h6 is the least important, and the smallest. 
 
-p
+p - 
 p is a paragraph tag, and paragraphs must always start on a new line. 
 
-lists: ul, ol, dl
+lists: ul, ol, dl - 
 ul stand for unordered list, ol stands for ordered list, and dl stands for description list. ul and ol contain li, or list items, and dl contains both dt (term or name) and dd (description of term). HTML configures these lists and gives them certain properties which can be altered using CSS. 
 
-a
+a - 
 a is an anchor element. The opening a indicates where a link starts, and the closing a indicates where a link ends, meaning it creates a hyperlink. It must also contain a href attribute, meaning its value will equal a URL. 
 
-img
+img - 
 img is an image tag. Images are not embedded in a website, rather are linked to by the HTML document. An img tag must also contain “alt” or an alternative tag which indicates the contents of the image, or what it is depicting. 
 
-figure (img & figcaption)
+figure (img & figcaption) - 
 Both an img and figcaption can be placed within a figure. The img tag is used as how it is described above, and the figcaption tag is used to lay a caption over the image as it is displayed on the website. 
 
-q 
+q - 
 q is used to mark quotations found within other elements, such as a paragraph tag. 
 
-blockquote
+blockquote - 
 blockquote is used to indicate large, stand-alone quotes. It may be placed within a figure tag.
 
-cite 
+cite - 
 A cite tag marks the source of a quotation. 
 
-em
+em - 
 em is a phrasing element that adds emphasis to text. They are typically italic. 
 
-strong 
+strong - 
 strong is used to add a lot of emphasis to a text and declares it to be of strong importance or urgency. They are typically given a bold font weight.
 
-b
+b - 
 b is a keyword. It is used to make a term boldfaced but is not given any special or urgent importance. 
 
-i
+i - 
 i is used to indicate another language, technical term, or title. It is used to describe semantics.
 
-small
+small - 
 small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
+
+Explain block Elements and also explain the list of block elements and why they are used from below:
+
+html - 
+html is used to represent the root of an HTML document. All other elements must be contained within the <html> tag, as it is the bases for the entire webpage. 
+  
+head - 
+head is an element that contains metadata about the HTML document. This can include the title, language, stylesheets, and default fonts. 
+  
+body -
+body is used to contain all content of an HTML document. There can only one body tag used per HTML page. 
+  
+header - 
+header is used to contain all introductory content. It is usually at the top of the page, and can contain navigation, logo, or company name. They can also be placed within sections or articles in an HTML document to introduce the content contained within them. 
+  
+nav - 
+nav is used to provide navigation links to content that is either inside the current HTML document or to other pages. 
+  
+main - 
+The main tag is used to indicate the main content of a page. It may only be used once per page, and it tells the browser exactly where the main content is located. 
+  
+section - 
+The section tag is used to indicate a part of the document that is related. It contains related content within itself, and usually also contains a heading. 
+  
+article
+An article tag is similar to a section tag in that it contains related content, however, it is used to represent self-contained items on an HTML document. Meaning, it can be independently distributed or reused. (ex. Blog post, magazine article, etc.). 
+  
+div - 
+div is a block element that groups elements together. It has no affect on layout until it is styled using CSS. 
+  
+aside - 
+aside is used to group content that is only indirectly linked to the main content on an HTML document. It may frequently be presented as a sidebar on a website. 
+  
+footer - 
+A footer tag is located at the bottom of an HTML document. It may contain copyright information, terms and services, etc. 
+  
+span - 
+span is an inline element that is used to markup part of a text or part of the document. 
+  
+small - 
+small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
+
