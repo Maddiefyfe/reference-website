@@ -170,4 +170,7 @@ Should be added to the top of every CSS file.
 The padding and margin properties can be used to add spacing to an element. 
   
   
+12. What is the main difference between margin and padding?
+  
+Margin is defined as the space around an element and padding is defined as the distance between the elements content and a border that may be placed around it. Padding is directly outside the content, and it pushes the edge of the box away from the content. Margin is outside of the box completely, and it is a transparent layer that pushes other boxes away. 
 
