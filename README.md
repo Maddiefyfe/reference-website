@@ -91,3 +91,38 @@ span is an inline element that is used to markup part of a text or part of the d
 small - 
 small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
 
+Explain why accessibility is important and also explain the accessibility properties like:
+  
+Accessibility is an extremely important factor to keep in mind when creating and designing and HTML document. As the internet has become a major aspect of billions of people lives, it is essential that it can be used by any person, regardless of their disabilities. By making a website accessible, it ensures that all users have an easy experience using and accessing any information found on the website. 
+  
+landmark roles
+  
+ARIA, (Accessible Rich Internet Application) is a specification laid out by the Web Accessibility Initiative. ARIA has a set of landmark roles that help users who use screen readers easily find and jump to content within the webpage. These landmark roles include:
+  
+header role= “banner”
+  
+Added to the primary header to indicate the element as the masthead. 
+  
+nav role= “navigation”
+  
+Added to the top nav link to indicate the element is the primary navigation.
+  
+main role= “main”
+  
+Added to the main section in HTML, defines the content within to be the main section of the page.
+  
+aside role= “complimentary”
+  
+Added to an aside to indicate the content is related to the main content.
+  
+footer role= “contentinfo”
+  
+Added to the footer element to define it as information about the main content.
+
+aria labels - 
+  
+aria labels provide the user with a non-visible label that will only be announced by screen readers. These labels are added to links to describe to the user what they will be clicking on. 
+  
+image alternative texts - 
+  
+The alt attribution allows the web developer to add description to images that are not visible on the completed webpage. This text will be read by a screen reader to describe to the user what the image depicts. 
