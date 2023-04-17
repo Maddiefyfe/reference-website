@@ -189,3 +189,6 @@ Inline-block – formatted as inline but can change the height and width propert
 None – element is completely removed 
 
   
+14. Write a brief explanation of flexbox property
+  
+The flexbox property creates an invisible box in which the children inside the parent selected can be arranged in specific types of ways. To create a flex container, you select a parent element in CSS and set the value to display: flex;. Items can be arranged vertically or horizontally, in order or reversed, and may be easily aligned and justified within the flex container. 
