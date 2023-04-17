@@ -162,4 +162,12 @@ box-sizing: border-box;
 box-sizing: inherit;
   
 }
+  
 Should be added to the top of every CSS file. 
+  
+  11. Explain different type of ways we can add spacing to an element
+  
+The padding and margin properties can be used to add spacing to an element. 
+  
+  
+
