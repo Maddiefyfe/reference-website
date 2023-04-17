@@ -50,7 +50,7 @@ i is used to indicate another language, technical term, or title. It is used to 
 small - 
 small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
 
-Explain block Elements and also explain the list of block elements and why they are used from below:
+6. Explain block Elements and also explain the list of block elements and why they are used from below:
 
 html - 
 html is used to represent the root of an HTML document. All other elements must be contained within the <html> tag, as it is the bases for the entire webpage. 
@@ -91,7 +91,7 @@ span is an inline element that is used to markup part of a text or part of the d
 small - 
 small is used to make certain letters, words, or sentences smaller compared to the surrounding text.
 
-Explain why accessibility is important and also explain the accessibility properties like:
+7. Explain why accessibility is important and also explain the accessibility properties like:
   
 Accessibility is an extremely important factor to keep in mind when creating and designing and HTML document. As the internet has become a major aspect of billions of people lives, it is essential that it can be used by any person, regardless of their disabilities. By making a website accessible, it ensures that all users have an easy experience using and accessing any information found on the website. 
   
@@ -129,7 +129,21 @@ The alt attribution allows the web developer to add description to images that a
 
   What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
   
-CSS stands for Cascading Style Sheets. It is the language we use to control the appearance of the HTML document and how it is presented on the web. A CSS file can be created within a code editor and saved as style.css. To attach the file to the HTML, it must be placed with the <head> of the document using the <link> element. The href attribute is used to point to the location of the css file, and the ref attribute is used to define it as a stylesheet. 
+8. CSS stands for Cascading Style Sheets. It is the language we use to control the appearance of the HTML document and how it is presented on the web. A CSS file can be created within a code editor and saved as style.css. To attach the file to the HTML, it must be placed with the <head> of the document using the <link> element. The href attribute is used to point to the location of the css file, and the ref attribute is used to define it as a stylesheet. 
   
 The code would look like such:
 link rel=“stylesheet” href=“css/style.css”
+  
+9. What is the difference between CSS ruleset, property and value (write explanation and an example code) 
+  
+A CSS rule consists of a selector and declaration block where properties are styled. 
+Ruleset: A ruleset contains a selector and one or more declarations surrounded by {}. A selector identifies which part of the HTML code is being transformed, and a declaration assigns a value to a property within that selector. An entire ruleset may look something like this:
+  
+p {
+background-color: purple;
+}
+  
+Property: A property is the type of design you wish to add to the HTML code. In the above example, background-color would be the property.
+  
+Value: A value would be an accepted value for the property selected. In the above example, purple would be the value of background-color.
+
