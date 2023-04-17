@@ -257,3 +257,9 @@ Align-content: space-evenly – Evenly distributed with space between
 Align-content: stretch – lines stretch to take up the remaining space
   
   
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+  
+  
+In order for flexbox to work, the parent element must be given a display of flex in CSS code. The children then must be given properties such as align-items, algin-content, justify-content, etc. in order to be displayed in flex form. These are all written in the CSS code. 
+
+  
