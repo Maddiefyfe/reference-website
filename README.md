@@ -342,3 +342,9 @@ Grid-template-rows: repeat(4, 100px) meaning there are 4 rows each consisting of
   
   
   
+23. What is the area property in CSS grid we use for the child elements?
+  
+  
+We use grid-row and grid-column properties for child elements. 
+
+  
