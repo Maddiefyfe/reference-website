@@ -280,4 +280,13 @@ Justify-content: center;
 Align-content: center;
   
 }
-In this code, flex items would be displayed horizontally, and all placed in center of flexbox together. 
+
+  In this code, flex items would be displayed horizontally, and all placed in center of flexbox together. 
+  
+18. What is CSS grid property?
+  
+  
+CSS grid property is a two-dimensional grid-based layout that contains rows and columns. An HTML parent becomes a grid when it is set to display: grid in CSS.
+
+
+  
