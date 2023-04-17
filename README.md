@@ -348,3 +348,19 @@ Grid-template-rows: repeat(4, 100px) meaning there are 4 rows each consisting of
 We use grid-row and grid-column properties for child elements. 
 
   
+Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+  
+  
+To prevent displaying empty columns you can use the property grid-auto-columns and set the minmax to 0.
+  
+  
+grid-auto-columns: minmax(0, 1fr)
+  
+  
+24. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
+  
+  
+First you will find a specific font on the Google fonts website.
+You will then select the fonts you want to use, and a link will pop up on the side of the website. You will select the option to copy fonts.
+In your html code, you will past the link in the head of the file above the title section. 
+To add a specific font to the CSS file, you can use the property font-family and set the element to the font you would like to use. 
